@@ -1,0 +1,8 @@
+<div class="gradient-container" #gradientContainer>
+  <canvas #gradientCanvas id="canvas" class="gradient-canvas" (click)="onClick($event)"></canvas>
+</div>
+<canvas #colorDisplayCanvas class="color-display-canvas"></canvas>
+<div class="width: 20%">
+  <img #image src="../../assets/CatBase.png" style="display:none;">
+  <canvas #tintedCanvas class="tinted-canvas"></canvas>
+</div>
